@@ -1,0 +1,152 @@
+@import "base.css";
+
+.container {
+    position: relative;
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+nav {
+    text-align: right;
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+}
+
+nav ul li a{
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    font-size: 0;
+}
+
+nav ul li {
+    display: inline;
+    line-height: 60px;
+    cursor: default;
+}
+
+nav ul li a {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    letter-spacing: .2px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.main-container{
+    height: 100vh;
+    background: url("..//img/main-background.jpg") center center / cover no-repeat fixed;
+    font-family: 'Oswald', sans-serif;
+}
+
+.main-container h1{
+    letter-spacing: 1px;
+}
+
+.content-container{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.button-1{
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    background-color:  #039be5;
+    border: 1px solid white;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 45px;
+}
+
+.second-container{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.text-portion{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-portion p{
+    margin-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.image-1{
+    background: url(..//img/computer-photo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    margin-top: 30px;
+}
+footer {
+    background-color: #e5e5ef;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 90%;
+  }
+  .fab {
+    font-size: 30px;
+    padding: 20px;
+  }
+  .footer-text {
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+  }
+  .icons-2{
+      color: white;
+      cursor: pointer;
+  }
+
+  .center-icons{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+  }
+
