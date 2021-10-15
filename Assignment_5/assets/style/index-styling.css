@@ -1,0 +1,213 @@
+@import "base.css";
+
+body {
+    background-color: #eff0f3;
+  }
+  
+  header {
+    background-color: #0066CC;
+  }
+  
+  nav {
+    text-align: right;
+    width: 100%;
+    height: 68px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  nav ul li a {
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    font-size: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    cursor: default;
+  }
+  
+  nav ul li a {
+    font-family: "Nunito Sans", Arial, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  nav a:focus {
+    background-color: #3d3d3d;
+  }
+  nav a:hover {
+    background-color: #3d3d3d;
+  }
+
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  input {
+    border-radius: 10px;
+    height: 40px;
+    width: 100%;
+    padding-left: 5%;
+    background: rgba(125, 199, 242, 0.4);
+    /* border: 3px solid #3d3d3d; */
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }
+  
+  input::placeholder {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+  }
+
+  table {
+    margin-top: 3.6rem;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+ }
+ 
+ table tr .td-1 {
+    width: 7%;
+ }
+ 
+ table tr .td-2 {
+    width: 13%;
+ }
+ 
+ table tr .td-3 {
+    width: 12%;
+ }
+ 
+ table tr .td-4 {
+    width: 18%;
+ }
+ 
+ table tr .td-5 {
+    width: 8%;
+ }
+
+ table tr .td-6 {
+  width: 18%;
+}
+ 
+ table tr .td-1 input {
+    color: #0fb28a;
+ }
+ 
+ table tr {
+    border-bottom: .1rem solid #e6e7ee;
+    width: 100px;
+ }
+ 
+ table tr th:last-child,
+ table tr td:last-child {
+    text-align: right;
+ }
+ 
+ table tr th {
+    padding: 1.3rem 0;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    cursor: default;
+ }
+ 
+ table tr td {
+    padding: 1.3rem 0;
+    background-color: #fff;
+    font-size: 1.1rem;
+    cursor: default;
+ }
+ 
+ table tr td:first-child,
+ table tr td:last-child {
+    padding: 0 1.6rem 0 1.6rem;
+ }
+
+tr + tr{
+    height: 60px;
+    background: #fff;
+    box-shadow: 1px 1px 2px #e4e5e8;
+}
+
+.spacer{
+  height: 12px;
+}
+
+tr a{
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 18px;
+  padding-right: 18px;
+  background-color: rgb(240, 240, 241);
+  border-radius: 50px;
+  color: rgb(116, 115, 115);
+}
+
+h1{
+  padding-top: 50px;
+}
+
+.fa-users{
+  background-color: rgb(251, 228, 236);
+  color: rgb(231, 27, 100);
+  padding: 12px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+.fa-user-shield{
+  background-color: rgb(248, 244, 231);
+  color: rgb(245, 163, 9);
+  padding: 12px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+.fa-users-cog{
+  background-color: rgb(255, 238, 238);
+  color: rgb(228, 45, 51);
+  padding: 12px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+.fa-user-tie{
+  background-color: rgb(236, 233, 246);
+  color: rgb(82, 86, 154);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+.fa-user-graduate{
+  background-color: rgb(226, 247, 232);
+  color: rgb(63, 132, 67);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 50%;
+  font-size: 18px;
+}
