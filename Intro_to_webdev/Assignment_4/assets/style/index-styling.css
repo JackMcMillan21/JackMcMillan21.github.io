@@ -88,7 +88,6 @@ nav a:hover {
   height: 90px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding-left: 2%;
   padding-right: 2%;
   overflow: auto;
@@ -99,6 +98,14 @@ nav a:hover {
 
 .three + .three{
   margin-left: 3%;
+}
+
+.three h1{
+  margin-left: 7%;
+}
+
+.three h2{
+  margin-left: 4%;
 }
 
 .three i {
