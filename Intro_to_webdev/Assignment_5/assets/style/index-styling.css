@@ -37,12 +37,16 @@ body {
   
   nav ul li a {
     font-family: "Nunito Sans", Arial, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
     font-weight: 400;
     letter-spacing: 0.2px;
     text-decoration: none;
     cursor: pointer;
+  }
+
+  .first-title{
+    font-size: 20px;
   }
   
   nav a:focus {
@@ -160,6 +164,11 @@ tr a{
   background-color: rgb(240, 240, 241);
   border-radius: 50px;
   color: rgb(116, 115, 115);
+}
+
+tr a:hover{
+  background-color: #0066CC;
+  color: white;
 }
 
 h1{

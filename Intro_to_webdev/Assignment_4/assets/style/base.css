@@ -27,3 +27,7 @@ p, a, li, label, input, textarea, div, span {
     max-width: 1280px;
     margin: 0 auto;
 }
+
+.header-width-container{
+    width: 91%;
+}
