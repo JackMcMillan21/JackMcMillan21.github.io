@@ -43,13 +43,12 @@ nav ul {
 
 nav ul li {
   display: inline;
-  line-height: 60px;
   cursor: default;
 }
 
 nav ul li a {
-  font-family: "Nunito Sans", Arial, sans-serif;
-  font-size: 18px;
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 20px;
   color: #fff;
   font-weight: 400;
   letter-spacing: 0.2px;
@@ -92,6 +91,8 @@ nav a:hover {
   padding-right: 2%;
   overflow: auto;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  font-size: 0.9rem;
+  letter-spacing: .7px;
 }
 
 .three + .three{

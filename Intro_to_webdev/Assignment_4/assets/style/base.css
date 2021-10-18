@@ -10,11 +10,11 @@
     vertical-align: baseline;
     -webkit-transition-duration: 0s;
             transition-duration: 0s;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 p, a, li, label, input, textarea, div, span {
-   font-family: 'Nunito Sans', 'Open Sans', Arial, sans-serif;
+   font-family: 'Oswald', 'Open Sans', Arial, sans-serif;
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
    text-rendering: optimizeLegibility;
