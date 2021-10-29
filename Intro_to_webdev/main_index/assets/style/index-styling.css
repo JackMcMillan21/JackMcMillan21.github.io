@@ -4,35 +4,69 @@
 /* --------- Header ----------*/
 /* -------------------------- */
 
-nav {
-  text-align: right;
-  width: 100%;
-  height: 80px;
-  overflow: hidden;
-}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+  
+  header .welcome {
+    color: white;
+  }
+  .container {
+    position: relative;
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+  
+  nav {
+    height: 60px;
+    overflow: hidden;
+    width: 400px;
+  }
+  
+  nav ul li a {
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    font-size: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    line-height: 60px;
+    cursor: default;
+  }
+  
+  nav ul li a {
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    cursor: pointer;
+  }
 
-nav ul {
-  list-style: none;
-  font-size: 0;
-}
-
-nav ul li {
-  display: inline;
-  line-height: 80px;
-  cursor: default;
-}
-
-nav ul li a {
-  font-family: "Oswald", sans-serif;
-  letter-spacing: 1px;
-  font-size: 20px;
-  color: white;
-  font-weight: 400;
-  letter-spacing: 0.2px;
-  text-decoration: none;
-  cursor: pointer;
-  padding: 40px 20px 20px 20px;
-}
+  .mobile-nav {
+    overflow: hidden;
+  }
+  
+  .mobile-nav p i {
+    margin-top: 18px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .mobile-nav {
+    display: block;
+  }
 
 /* -------------------------- */
 /* ------ Landing Page -------*/
@@ -74,9 +108,12 @@ nav ul li a {
   color: white;
 }
 
-.main-banner h1 {
-  font-size: 50px;
-}
+
+
+
+
+
+
 
 .button-1 {
   width: 110px;
@@ -118,6 +155,7 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 45px;
 }
 
 .text-portion p {
@@ -152,48 +190,47 @@ nav ul li a {
 /* Row-1 */
 
 .col img {
-    width: 100%;
-    height: 100%;
-  }
-  
-  section {
-    padding: 80px 0;
-    background-color: #f7f8f9;
-  }
-  
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .col {
-    width: 100%;
-    padding: 15px;
-  }
-  
-  .col-content {
-    position: relative;
-    width: 100%;
-    background-color: #fff;
-    box-shadow: 0 20px 48px 0 rgba(59, 69, 152, 0.2);
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .content h3 {
-    font-size: 22px;
-    color: #303336;
-    font-weight: 700;
-  }
-  
-  .content p {
-    margin-top: 9px;
-    font-size: 18px;
-    color: #303336;
-    font-weight: 500;
-  }
+  width: 100%;
+  height: 100%;
+}
 
+section {
+  padding: 80px 0;
+  background-color: #f7f8f9;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col {
+  width: 100%;
+  padding: 15px;
+}
+
+.col-content {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 20px 48px 0 rgba(59, 69, 152, 0.2);
+  display: flex;
+}
+
+.content h3 {
+  font-size: 22px;
+  color: #303336;
+  font-weight: 700;
+}
+
+.content p {
+  margin-top: 9px;
+  font-size: 18px;
+  color: #303336;
+  font-weight: 500;
+}
 
 /* Row-2 */
 
@@ -204,7 +241,7 @@ nav ul li a {
 }
 
 .form {
-  width: 45%;
+  width: 100%;
 }
 
 .form h2 {
@@ -332,14 +369,16 @@ input[type="submit"]:hover {
 }
 
 .contact-us-head {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .contact-us-info {
-  width: 45%;
+  width: 100%;
   border: 1px solid black;
-  height: 300px;
+  height: auto;
   padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  margin-top: 45px;
 }
 
 .contact-us-info p {
@@ -367,6 +406,11 @@ input[type="submit"]:hover {
   text-align: center;
   flex-direction: column;
   width: 90%;
+  margin-top: 45px;
+}
+
+.row-container{
+    margin: 0 auto;
 }
 
 /* ------------------------- */
@@ -406,93 +450,120 @@ footer {
 /* ----- Media Queries ------ */
 /* ------------------------- */
 
+.main-banner h1 {
+    font-size: 1.5rem;
+  }
+
+  .main-banner h3 {
+    font-size: 0.7rem;
+  }
+
 @media screen and (min-width: 320px) {
-    nav {
-      display: none;
-    }
-    .mobile-nav {
-      display: block;
-    }
-  
-    .main-banner h1{
-      font-size: 1.5rem;
+  nav {
+    display: none;
   }
-  
-  .main-banner h3{
-      font-size: .7rem;
+  .mobile-nav {
+    display: block;
   }
+
+  header h1{
+    font-size: 20px;
+}
+}
+
+@media screen and (min-width: 580px) {
+  nav {
+    display: none;
   }
-  
-  @media screen and (min-width: 580px) {
-    nav {
-      display: none;
-    }
-    .mobile-nav {
-      display: block;
-    }
-  
-    .col-md-6{
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
-    .main-banner h1{
-      font-size: 2rem;
+  .mobile-nav {
+    display: block;
   }
-  
-  .main-banner h3{
-      font-size: .9rem;
+
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
   }
+  .main-banner h1 {
+    font-size: 2rem;
   }
-  
-  @media screen and (min-width: 768px) {
-      .container,
-      .row-container {
-        max-width: 800px;
-      }
-  
-    nav {
-      display: none;
-    }
-    .mobile-nav {
-      display: block;
-    }
-  
-    .col-md-6{
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
-    .main-banner h1{
-        font-size: 2.5rem;
-    }
-  
-    .main-banner h3{
-      font-size: 1rem;
+
+  .main-banner h3 {
+    font-size: 0.9rem;
   }
+
+  header h1{
+    font-size: 24px;
+}
+}
+
+@media screen and (min-width: 768px) {
+  .container,
+  .row-container {
+    max-width: 800px;
   }
-  
-  @media screen and (min-width: 1024px) {
-    .container,
-    .row-container {
-      max-width: 1140px;
-    }
-  
-    nav {
-      display: block;
-    }
-    .mobile-nav {
-      display: none;
-    }
-  
-    .col-lg-3{
-        flex: 0 0 25%;
-        width: 25%;
-    }
-  
-    .main-banner h1{
-      font-size: 3rem;
+
+  nav {
+    display: none;
   }
-  
-  .main-banner h3{
-      font-size: 1.1rem;
+  .mobile-nav {
+    display: block;
   }
+
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
   }
+  .main-banner h1 {
+    font-size: 2.5rem;
+  }
+
+  .main-banner h3 {
+    font-size: 1rem;
+  }
+
+  .form,
+  .contact-us-info {
+    margin-top: 0;
+    width: 45%;
+  }
+
+  .contact-us-info{
+      height: 270px;
+  }
+
+  header h1{
+      font-size: 24px;
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+  .container,
+  .row-container {
+    max-width: 1140px;
+  }
+
+  nav {
+    display: block;
+  }
+  .mobile-nav {
+    display: none;
+  }
+
+  .col-lg-3 {
+    flex: 0 0 25%;
+    width: 25%;
+  }
+
+  .main-banner h1 {
+    font-size: 3rem;
+  }
+
+  .main-banner h3 {
+    font-size: 1.1rem;
+  }
+
+  header h1{
+    font-size: 30px;
+}
+}
