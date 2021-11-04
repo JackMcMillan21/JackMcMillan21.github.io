@@ -5,6 +5,10 @@
 /* ------ Landing Page -------*/
 /* -------------------------- */
 
+body{
+    background-color: #eeeeee;
+}
+
 .lp-content{
     display: flex;
     flex-direction: row;
@@ -13,14 +17,57 @@
 .left-introduction{
     width: 50%;
     height: 600px;
+    display: flex;
+    align-items: center;
 }
 
 .right-introduction{
     width: 50%;
+    padding-top: 50px;
 }
 
 .about-me-image{
 width: 100%;
-height: 400px;
+height: 450px;
 background: url("..//img/about-me-image.png") center center / cover no-repeat;
 }
+
+.lp-text{
+    text-align: left;
+}
+
+.lp-text h1{
+    font-weight: 900;
+    font-size: 4.5rem;
+}
+
+.lp-text p{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.lp-text p + p{
+    margin-left: 20px;
+}
+
+.read-more-button {
+    padding: 12px 35px;
+    border-radius: 50px;
+    border: 1px solid #0077cc;
+    background: #0070c9;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .lp-buttons{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .lp-button-2{
+      margin-left: 10%;
+      background-color: #eeeeee;
+      color: #0077cc;
+  }
