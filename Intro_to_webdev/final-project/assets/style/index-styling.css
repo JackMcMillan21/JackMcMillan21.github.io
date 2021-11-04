@@ -1,94 +1,5 @@
 @import "base.css";
-
-/* -------------------------- */
-/* --------- Header ----------*/
-/* -------------------------- */
-
-header {
-    display: flex;
-    justify-content: space-between;
-    height: 8vh;
-  }
-  
-  header .welcome {
-    color: white;
-  }
-  .container {
-    position: relative;
-    width: 90%;
-    max-width: 1080px;
-    margin: 0 auto;
-  }
-  
-  nav {
-    height: 60px;
-    overflow: hidden;
-    width: 400px;
-  }
-  
-  nav ul li a {
-    padding: 20px;
-  }
-  
-  nav ul {
-    list-style: none;
-    font-size: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    line-height: 60px;
-    cursor: default;
-  }
-  
-  nav ul li a {
-    letter-spacing: 1px;
-    font-size: 18px;
-    color: #000732;
-    font-weight: 400;
-    letter-spacing: 0.2px;
-    text-decoration: none;
-    cursor: pointer;
-  }
-
-  .mobile-nav {
-    overflow: hidden;
-  }
-  
-  .mobile-nav p i {
-    margin-top: 18px;
-    font-size: 20px;
-    color: #eeeeee;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  .mobile-nav {
-    display: block;
-  }
-
-  .logo{
-    display: flex;
-    align-items: center;
-  }
-
-  .logo img{
-    height: 40px;
-    width: 90px;
-  }
-
-  .right-nav{
-    display: flex;
-    align-items: center;
-  }
-
-  .contact-us h3{
-    font-size: 18px;
-    padding: 4px 20px;
-    border-radius: 50px;
-    border: 1.5px solid #000732;
-    font-weight: 400;
-  }
+@import "nav.css";
 
 /* -------------------------- */
 /* ------ Landing Page -------*/
@@ -166,7 +77,6 @@ body{
   flex-direction: column;
   height: auto;
   margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 .read-more-button {
@@ -302,10 +212,13 @@ section h1{
   width: 100%;
   display: flex;
   flex-direction: column;
+  padding: 70px 0;
 }
 
 .support-me-base h1{
   text-align: center;
+  font-weight: 900;
+  font-size: 30px;
 }
 
 .support-me-container{
@@ -313,15 +226,20 @@ section h1{
   display: flex;
   flex-direction: row;
   margin: 0 auto;
+  justify-content: space-between;
 }
 
 .support-right{
-  width: 50%;
+  width: 45%;
   text-align: right;
 }
 
+.support-right h1{
+  padding-top: 50px;
+}
+
 .support-left{
-  width: 50%;
+  width: 45%;
 }
 
 .support-me-text p{
@@ -336,41 +254,35 @@ section h1{
   padding-bottom: 10px;
   font-weight: 900;
   font-size: 40px;
+  text-align: start;
 }
 
-
-/* ------------------------- */
-/* -------- Footer ---------*/
-/* ------------------------ */
-
-footer {
-  background-color: #e5e5ef;
-  height: 60px;
-  display: flex;
-  justify-content: center;
+.contact-us-info {
   width: 100%;
+  border: 1px solid black;
+  height: auto;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  margin-top: 45px;
 }
-.footer-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: row;
-  width: 90%;
+
+.contact-us-info p {
+  padding-top: 10px;
 }
-.fab {
-  font-size: 30px;
-  padding: 20px;
-}
-.footer-text {
-  display: flex;
-  justify-content: end;
-  padding: 20px;
-}
-.icons-2 {
-  color: white;
-  cursor: pointer;
+
+.contact-us-info i {
+  padding: 15px;
+  background-color: rgb(236, 233, 246);
+  color: rgb(82, 86, 154);
+  border-radius: 50%;
   font-size: 24px;
-  margin-bottom: 15px;
+}
+
+.contact-us-icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
 }
 
 /* ------------------------- */
@@ -381,7 +293,7 @@ footer {
   nav {
     display: none;
   }
-  .contact-us{
+  .contact-us-nav{
     display: none;
   }
   .mobile-nav p i  {
@@ -431,16 +343,6 @@ footer {
   .col-md-6 {
     flex: 0 0 50%;
     max-width: 50%;
-  }
-
-  .form,
-  .contact-us-info {
-    margin-top: 0;
-    width: 45%;
-  }
-
-  .contact-us-info{
-      height: 270px;
   }
 }
 
