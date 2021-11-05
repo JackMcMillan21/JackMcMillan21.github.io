@@ -11,7 +11,7 @@ header {
   header .welcome {
     color: white;
   }
-  .container {
+  .container, .header-container {
     position: relative;
     width: 90%;
     max-width: 1080px;
@@ -21,7 +21,6 @@ header {
   nav {
     height: 60px;
     overflow: hidden;
-    width: 400px;
   }
   
   nav ul li a {
@@ -94,19 +93,19 @@ header {
 
 footer {
   background-color: rgb(12, 12, 12);
-  height: 150px;
+  height: 190px;
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
   color: #fff;
-  padding-bottom: 50px;
 }
 .footer-container {
   display: flex;
   align-items: center;
   flex-direction: column;
   width: 90%;
-  padding-top: 10px;
+  height: 100%;
 }
 .fab {
   font-size: 30px;
@@ -116,10 +115,11 @@ footer {
   display: flex;
   justify-content: end;
   padding: 20px;
-  font-size: 24px;
+  font-size: 20px;
   letter-spacing: .8px;
   border-bottom: 1px solid white;
   font-weight: 400;
+  margin-top: 25px;
 }
 .icons-1 {
   color: white;

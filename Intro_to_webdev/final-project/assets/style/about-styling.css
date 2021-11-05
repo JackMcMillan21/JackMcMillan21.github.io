@@ -5,69 +5,289 @@
 /* ------ Landing Page -------*/
 /* -------------------------- */
 
-body{
-    background-color: #eeeeee;
+body {
+  background-color: #eeeeee;
 }
 
-.lp-content{
-    display: flex;
-    flex-direction: row;
+.lp-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
-.left-introduction{
-    width: 50%;
-    height: 600px;
-    display: flex;
-    align-items: center;
+.left-introduction {
+  width: 50%;
+  height: 600px;
+  display: flex;
+  align-items: center;
 }
 
-.right-introduction{
-    width: 50%;
-    padding-top: 50px;
+.right-introduction {
+  width: 50%;
+  padding-top: 50px;
 }
 
-.about-me-image{
-width: 100%;
-height: 450px;
-background: url("..//img/about-me-image.png") center center / cover no-repeat;
+.about-me-image {
+  width: 100%;
+  height: 450px;
+  background: url("..//img/about-me-image.png") center center / cover no-repeat;
 }
 
-.lp-text{
-    text-align: left;
+.lp-text {
+  text-align: left;
 }
 
-.lp-text h1{
-    font-weight: 900;
-    font-size: 4.5rem;
+.lp-text h1 {
+  font-weight: 900;
+  font-size: 4.5rem;
 }
 
-.lp-text p{
-    font-size: 2rem;
-    font-weight: 700;
+.lp-text p {
+  font-size: 2rem;
+  font-weight: 700;
 }
 
-.lp-text p + p{
-    margin-left: 20px;
+.lp-text p + p {
+  margin-left: 20px;
 }
 
 .read-more-button {
-    padding: 12px 35px;
-    border-radius: 50px;
-    border: 1px solid #0077cc;
-    background: #0070c9;
-    color: white;
-    cursor: pointer;
-    font-size: 20px;
-  }
+  padding: 12px 35px;
+  border-radius: 50px;
+  border: 1px solid #0077cc;
+  background: #0070c9;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
 
-  .lp-buttons{
-    padding-top: 100px;
+.lp-buttons {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.lp-button-2 {
+  margin-left: 10%;
+  background-color: #eeeeee;
+  color: #0077cc;
+}
+
+/* -------------------------- */
+/* ------ Accomplishments -------*/
+/* -------------------------- */
+
+.main-accomplishments {
+  width: 100%;
+  background-color: #f7f8f9;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.accomplishments-content {
+  width: 80%;
+}
+
+.accomplishments-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.accomplishments-head{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 175px;
+}
+
+.col-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.col h1 {
+  font-weight: 900;
+  font-size: 40px;
+  color: #0077cc;
+}
+
+.col p {
+  font-size: 18px;
+}
+
+.col i {
+  font-size: 40px;
+  font-weight: 900;
+  color: #0077cc;
+}
+
+.divider {
+  height: 2px;
+  width: 25px;
+  background-color: #0077cc;
+  margin: 20px 0px;
+}
+
+/* ------------------------- */
+/* ----- Latest Travel ------ */
+/* ------------------------- */
+
+.latest-travel-center {
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.latest-travel-width{
+    width: 90%;
+}
+
+.latest-travel-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.divider-2 {
+  height: 2px;
+  width: 60px;
+  background-color: #0077cc;
+  margin: 20px 0px;
+}
+
+.latest-travel-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.latest-travel-left {
+  position: relative;
+  width: 48.5%;
+  height: 550px;
+  background: url("..//img/cuba.PNG") center center / cover no-repeat;
+}
+
+.latest-travel-right {
+  width: 48.5%;
+  height: 550px;
+  background: url("..//img/jamaica.jpg") center center / cover no-repeat;
+}
+
+.darkness{
+    position: relative;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+}
+
+.travel-text{
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+}
+
+.travel-text h2{
+    color: white;
+    padding: 20px 0px 10px 0px;
+}
+
+.travel-text p{
+    width: 70%;
+}
+
+/* ------------------------- */
+/* ----- Media Queries ------ */
+/* ------------------------- */
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+  .contact-us-nav {
+    display: none;
+  }
+  .mobile-nav p i {
+    display: block;
+    color: #000732;
+    height: 40px;
+  }
+  .left-introduction,
+  .right-introduction {
+    width: 100%;
+  }
+  .right-introduction {
+    padding-top: 0px;
+  }
+  .lp-buttons {
+    padding-top: 20px;
+  }
+  .about-me-image {
+    height: 300px;
+    background: url("..//img/about-me-image.png") right center / cover no-repeat;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 580px) {
+  nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container,
+  .row-container {
+    max-width: 800px;
   }
 
-  .lp-button-2{
-      margin-left: 10%;
-      background-color: #eeeeee;
-      color: #0077cc;
+  nav {
+    display: none;
   }
+  .mobile-nav {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container,
+  .row-container {
+    max-width: 1140px;
+  }
+
+  nav {
+    display: block;
+  }
+  .mobile-nav {
+    display: none;
+  }
+}

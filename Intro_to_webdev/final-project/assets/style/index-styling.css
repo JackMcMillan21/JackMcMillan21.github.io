@@ -344,6 +344,8 @@ section h1{
     flex: 0 0 50%;
     max-width: 50%;
   }
+
+
 }
 
 @media screen and (min-width: 1024px) {
