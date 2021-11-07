@@ -95,11 +95,11 @@ body {
   flex-direction: row;
 }
 
-.accomplishments-head{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.accomplishments-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .col {
@@ -151,8 +151,8 @@ body {
   margin-bottom: 100px;
 }
 
-.latest-travel-width{
-    width: 90%;
+.latest-travel-width {
+  width: 90%;
 }
 
 .latest-travel-head {
@@ -190,28 +190,147 @@ body {
   background: url("..//img/jamaica.jpg") center center / cover no-repeat;
 }
 
-.darkness{
-    position: relative;
-    background: rgba(0, 0, 0, 0.4);
-    width: 100%;
-    height: 100%;
+.darkness {
+  position: relative;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
 }
 
-.travel-text{
-    color: white;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    padding: 20px;
+.travel-text {
+  color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 20px;
 }
 
-.travel-text h2{
-    color: white;
-    padding: 20px 0px 10px 0px;
+.travel-text h2 {
+  color: white;
+  padding: 20px 0px 10px 0px;
 }
 
-.travel-text p{
-    width: 70%;
+.travel-text p {
+  width: 70%;
+}
+
+/* -------------------------- */
+/* ------ Accomplishments -------*/
+/* -------------------------- */
+
+.see-more-head {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 70px;
+}
+
+.see-more-head p {
+  padding-bottom: 20px;
+}
+
+.see-more-head a {
+  color: #0077cc;
+  cursor: pointer;
+}
+
+.see-more-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f7f8f9;
+}
+
+.see-more-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.col-1 {
+  background: url("..//img/trip-1.jpg") right center / cover no-repeat;
+  width: 23%;
+  height: 240px;
+}
+
+.col-2 {
+  background: url("..//img/trip-3.jpg") right center / cover no-repeat;
+  width: 23%;
+  height: 240px;
+}
+
+.col-3 {
+  background: url("..//img/trip-2.jpg") right center / cover no-repeat;
+  width: 23%;
+  height: 240px;
+}
+
+.col-4 {
+  background: url("..//img/trip-4.jpg") right center / cover no-repeat;
+  width: 23%;
+  height: 240px;
+}
+
+.see-more-dots button {
+  border-radius: 50%;
+  height: 13px;
+  width: 13px;
+  border: 1px solid #0077cc;
+}
+
+.see-more-dots button:hover {
+  background-color: #0077cc;
+  cursor: pointer;
+}
+
+.see-more-dots {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0px;
+}
+
+/* ------------------------- */
+/* -------- Quote ---------- */
+/* ------------------------- */
+
+.center-quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-line{
+  height: 150px;
+  width: 1px;
+  background-color: #0077cc;
+}
+
+.quote-container {
+  width: 45%;
+  padding-left: 30px;
+}
+
+.quote-head i {
+  font-size: 32px;
+  color: #0077cc;
+}
+
+.quote-head {
+  padding-bottom: 20px;
+  padding-top: 70px;
+}
+
+.quote-content {
+  padding-bottom: 20px;
+}
+
+.quote-name{
+  padding-bottom: 70px;
 }
 
 /* ------------------------- */
