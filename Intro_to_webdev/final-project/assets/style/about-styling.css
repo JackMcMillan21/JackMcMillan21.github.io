@@ -187,7 +187,7 @@ body {
 .latest-travel-right {
   width: 48.5%;
   height: 550px;
-  background: url("..//img/jamaica.jpg") center center / cover no-repeat;
+  background: url("..//img/jamaica.png") center center / cover no-repeat;
 }
 
 .darkness {
@@ -264,7 +264,7 @@ body {
 }
 
 .col-3 {
-  background: url("..//img/trip-2.jpg") right center / cover no-repeat;
+  background: url("..//img/trip-2.png") right center / cover no-repeat;
   width: 23%;
   height: 240px;
 }

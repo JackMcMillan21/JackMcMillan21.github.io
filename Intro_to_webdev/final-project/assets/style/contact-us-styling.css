@@ -1,0 +1,87 @@
+@import "base.css";
+@import "nav-footer.css";
+
+
+
+
+
+
+
+
+/* ------------------------- */
+/* ----- Media Queries ------ */
+/* ------------------------- */
+
+@media screen and (max-width: 768px) {
+    nav {
+      display: none;
+    }
+    .contact-us-nav {
+      display: none;
+    }
+    .mobile-nav p i {
+      display: block;
+      color: #000732;
+      height: 40px;
+    }
+    .left-introduction,
+    .right-introduction {
+      width: 100%;
+    }
+    .right-introduction {
+      padding-top: 0px;
+    }
+    .lp-buttons {
+      padding-top: 20px;
+    }
+    .about-me-image {
+      height: 300px;
+      background: url("..//img/about-me-image.png") right center / cover no-repeat;
+    }
+  }
+  
+  @media screen and (min-width: 320px) {
+    nav {
+      display: none;
+    }
+    .mobile-nav {
+      display: block;
+    }
+  }
+  
+  @media screen and (min-width: 580px) {
+    nav {
+      display: none;
+    }
+    .mobile-nav {
+      display: block;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .container,
+    .row-container {
+      max-width: 800px;
+    }
+  
+    nav {
+      display: none;
+    }
+    .mobile-nav {
+      display: block;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .container,
+    .row-container {
+      max-width: 1140px;
+    }
+  
+    nav {
+      display: block;
+    }
+    .mobile-nav {
+      display: none;
+    }
+  }
