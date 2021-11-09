@@ -5,7 +5,7 @@
 /* ------ Landing Page -------*/
 /* -------------------------- */
 
-body {
+body{
   background-color: #eeeeee;
 }
 
@@ -23,7 +23,7 @@ body {
   justify-content: space-between;
   background: url("..//img/background.jpg") center center / cover no-repeat
     fixed;
-  align-items: center;
+    align-items: center;
 }
 
 .main-container h1 {
@@ -37,7 +37,7 @@ body {
   flex-direction: column;
 }
 
-.lp-content {
+.lp-content{
   padding-bottom: 40px;
   height: 100%;
   display: flex;
@@ -47,13 +47,13 @@ body {
   width: 80%;
 }
 
-.lp-content h1 {
+.lp-content h1{
   color: #fff;
   font-size: 72px;
   font-weight: 900;
 }
 
-.lp-content p {
+.lp-content p{
   color: #fff;
   font-size: 17.5px;
 }
@@ -91,8 +91,11 @@ body {
 
 .text-portion {
   width: 73%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   margin-bottom: 80px;
-  display: inline;
+justify-content: space-between;
 }
 
 .paragraph {
@@ -100,15 +103,15 @@ body {
   text-align: start;
 }
 
-.paragraph p {
+.paragraph p{
   margin-top: 20px;
 }
 
-.left-text {
+.left-text{
   width: 50%;
 }
 
-.left-text h1 {
+.left-text h1{
   border-bottom: 1px solid black;
   width: 100%;
   padding-bottom: 10px;
@@ -116,30 +119,31 @@ body {
   font-size: 40px;
 }
 
-.left-text p {
+.left-text p{
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
 }
 
-.right-text {
+.right-text{
   width: 45%;
   height: 500px;
   text-align: right;
 }
 
-.right-text h1 {
+.right-text h1{
   margin-bottom: 20px;
   margin-top: 25px;
   font-size: 24px;
   font-weight: 900;
 }
 
-.right-image {
-  background: url("..//img/trip-3.jpg") center center / cover no-repeat;
+.right-image{
+  background: url("..//img/lads.JPG") center center / cover no-repeat;
   width: 100%;
   height: 250px;
 }
+
 
 /* ------------------------- */
 /* -------- Projects ---------*/
@@ -157,7 +161,7 @@ section {
   text-align: center;
 }
 
-section h1 {
+section h1{
   padding-bottom: 50px;
   font-weight: 900;
   font-size: 30px;
@@ -175,7 +179,7 @@ section h1 {
   padding: 15px;
 }
 
-.col h3 {
+.col h3{
   padding-bottom: 15px;
 }
 
@@ -187,11 +191,11 @@ section h1 {
   display: flex;
 }
 
-.row-container {
+.row-container{
   margin: 0 auto;
 }
 
-.all-projects {
+.all-projects{
   padding: 8px 25px;
   border-radius: 50px;
   border: 1px solid #0077cc;
@@ -204,20 +208,20 @@ section h1 {
 /* ------ Support Me --------*/
 /* ------------------------ */
 
-.support-me-base {
+.support-me-base{
   width: 100%;
   display: flex;
   flex-direction: column;
   padding: 70px 0;
 }
 
-.support-me-base h1 {
+.support-me-base h1{
   text-align: center;
   font-weight: 900;
   font-size: 30px;
 }
 
-.support-me-container {
+.support-me-container{
   width: 73%;
   display: flex;
   flex-direction: row;
@@ -225,26 +229,26 @@ section h1 {
   justify-content: space-between;
 }
 
-.support-right {
+.support-right{
   width: 45%;
   text-align: right;
 }
 
-.support-right h1 {
+.support-right h1{
   padding-top: 50px;
 }
 
-.support-left {
+.support-left{
   width: 45%;
 }
 
-.support-me-text p {
+.support-me-text p{
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
 }
 
-.support-me-text h1 {
+.support-me-text h1{
   border-bottom: 1px solid black;
   width: 100%;
   padding-bottom: 10px;
@@ -289,14 +293,15 @@ section h1 {
   nav {
     display: none;
   }
-  .contact-us-nav {
+  .contact-us-nav{
     display: none;
   }
-  .mobile-nav p i {
+  .mobile-nav p i  {
     display: block;
     color: #000732;
     height: 40px;
   }
+
 }
 
 @media screen and (min-width: 320px) {
@@ -339,36 +344,8 @@ section h1 {
     flex: 0 0 50%;
     max-width: 50%;
   }
-  .text-portion {
-    display: block;
-  }
-}
 
-@media screen and (max-width: 1024px) {
-  .container,
-  .row-container {
-    max-width: 1140px;
-  }
 
-  nav {
-    display: block;
-    display: none;
-  }
-
-  .col-lg-3 {
-    flex: 0 0 25%;
-    width: 25%;
-  }
-
-  .text-portion {
-    display: block;
-  }
-  .left-text {
-    width: 100%;
-  }
-  .right-text {
-    width: 100%;
-  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -387,14 +364,5 @@ section h1 {
   .col-lg-3 {
     flex: 0 0 25%;
     width: 25%;
-  }
-  .text-portion{
-    display: inline;
-  }
-  .left-text{
-    width: 50%;
-  }
-  .right-text{
-    width: 50%;
   }
 }

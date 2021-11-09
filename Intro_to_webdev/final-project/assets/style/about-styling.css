@@ -252,7 +252,7 @@ body {
 }
 
 .col-1 {
-  background: url("..//img/trip-3.jpg") right center / cover no-repeat;
+  background: url("..//img/trip-1.jpg") right center / cover no-repeat;
   width: 23%;
   height: 240px;
 }
@@ -264,13 +264,13 @@ body {
 }
 
 .col-3 {
-  background: url("..//img/trip-3.jpg") right center / cover no-repeat;
+  background: url("..//img/trip-2.png") right center / cover no-repeat;
   width: 23%;
   height: 240px;
 }
 
 .col-4 {
-  background: url("..//img/trip-3.jpg") right center / cover no-repeat;
+  background: url("..//img/trip-4.jpg") right center / cover no-repeat;
   width: 23%;
   height: 240px;
 }
