@@ -119,7 +119,6 @@ body {
 
 .col h1 {
   font-weight: 900;
-  font-size: 40px;
   color: #0077cc;
 }
 
@@ -172,6 +171,7 @@ body {
 .latest-travel-row {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
   padding-top: 40px;
@@ -363,6 +363,22 @@ body {
     height: 300px;
     background: url("..//img/about-me-image.png") right center / cover no-repeat;
   }
+  .accomplishments-row{
+    width:100vw;
+    margin-left: -10vw;
+    justify-content:space-around;
+    margin-bottom: 40px;
+  }
+  .latest-travel-right, .latest-travel-left{
+    width:100%;
+  }
+  .latest-travel-left{
+    margin-bottom: 40px;
+  }
+  .latest-travel-center{
+    margin-bottom: 80px;
+  }
+
 }
 
 @media screen and (min-width: 320px) {
@@ -374,12 +390,39 @@ body {
   }
 }
 
+@media screen and (max-width: 580px) {
+  nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+  }
+  .col-content h1{
+    font-size: 22px;
+  }
+  .col-content i{
+    font-size: 22px;
+  }
+  .col-content p{
+    font-size: 12px;
+  }
+  .col-content{
+    padding-right: 20px;
+  }
+}
+
 @media screen and (min-width: 580px) {
   nav {
     display: none;
   }
   .mobile-nav {
     display: block;
+  }
+  .col-content h1{
+    font-size: 28px;
+  }
+  .col-content i{
+    font-size: 28px;
   }
 }
 
@@ -395,6 +438,38 @@ body {
   .mobile-nav {
     display: block;
   }
+  .col-content h1{
+    font-size: 36px;
+  }
+  .col-content i{
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 768px) {
+.see-more-row{
+  flex-direction: column;
+}
+.col-1{
+  width: 100%;
+  margin-bottom: 50px;
+}
+.col-2{
+  width: 100%;
+  margin-bottom: 50px;
+}
+.col-3{
+  width: 100%;
+  margin-bottom: 50px;
+}
+.col-4{
+  width: 100%;
+}
+}
+
+@media screen and (min-width: 769px){
+  nav {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -408,5 +483,11 @@ body {
   }
   .mobile-nav {
     display: none;
+  }
+  .col-content h1{
+    font-size: 40px;
+  }
+  .col-content i{
+    font-size: 40px;
   }
 }

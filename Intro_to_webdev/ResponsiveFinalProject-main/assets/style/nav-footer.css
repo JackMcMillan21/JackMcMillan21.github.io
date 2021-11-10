@@ -19,7 +19,7 @@ header {
   }
   
   nav {
-    height: 60px;
+    height: 8vh;
     overflow: hidden;
   }
   
@@ -34,7 +34,7 @@ header {
   
   nav ul li {
     display: inline;
-    line-height: 60px;
+    line-height: 8vh;
     cursor: default;
   }
   

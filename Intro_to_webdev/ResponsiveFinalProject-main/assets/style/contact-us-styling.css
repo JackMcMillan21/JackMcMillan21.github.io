@@ -115,6 +115,7 @@ input[type="submit"]:hover {
   width: 80%;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
   flex-direction: row;
   height: calc(100vh - 60px);
@@ -181,6 +182,26 @@ input[type="submit"]:hover {
     flex: 0 0 50%;
     max-width: 50%;
   }
+  .contact-us-left, .contact-us-right{
+    width: 100%;
+  }
+  .contact-us-right{
+    margin-top: 40px;
+    padding-bottom: 40px;
+    height: auto;
+  }
+
+  .contact-us-content{
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 372px){
+  .contact-us-right span{
+    margin-left: calc(-40vw - 17% + 106px);
+  }
 }
 
 @media screen and (min-width: 320px) {
@@ -221,7 +242,11 @@ input[type="submit"]:hover {
       font-size: 16px;
   }
 }
-
+@media screen and (min-width: 769px){
+  nav {
+    display: block;
+  }
+}
 @media screen and (min-width: 1024px) {
   .container,
   .row-container {

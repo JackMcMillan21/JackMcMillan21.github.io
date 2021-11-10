@@ -92,6 +92,7 @@ body{
 .text-portion {
   width: 73%;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   margin-bottom: 80px;
@@ -101,6 +102,7 @@ justify-content: space-between;
 .paragraph {
   width: 100%;
   text-align: start;
+  text-indent: 40px;
 }
 
 .paragraph p{
@@ -224,6 +226,7 @@ section h1{
 .support-me-container{
   width: 73%;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   margin: 0 auto;
   justify-content: space-between;
@@ -346,6 +349,30 @@ section h1{
   }
 
 
+}
+
+@media screen and (min-width: 769px){
+  nav {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .left-text, .right-text{
+    width:100%;
+  }
+  .lp-content h1{
+    font-size: 42px;
+  }
+  .right-text{
+    height: auto;
+  }
+  .right-text h1{
+    text-align: center;
+  }
+  .support-left, .support-right{
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 1024px) {

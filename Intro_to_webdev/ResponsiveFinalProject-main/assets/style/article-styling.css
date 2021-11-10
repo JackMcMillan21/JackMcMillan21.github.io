@@ -107,6 +107,15 @@ body {
     height: 300px;
     background: url("..//img/about-me-image.png") right center / cover no-repeat;
   }
+  .article-image{
+    width: 90%;
+  }
+  .lp-content h1{
+    font-size: 46px;
+  }
+  .article-content{
+    width:100%;
+  }
 }
 
 @media screen and (min-width: 320px) {
@@ -137,6 +146,12 @@ body {
     display: none;
   }
   .mobile-nav {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 769px){
+  nav {
     display: block;
   }
 }
