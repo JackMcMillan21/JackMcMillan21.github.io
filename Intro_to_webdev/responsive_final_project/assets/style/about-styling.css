@@ -13,6 +13,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  max-width: 1280px;
 }
 
 .left-introduction {
@@ -93,6 +94,7 @@ body {
 .accomplishments-row {
   display: flex;
   flex-direction: row;
+  max-width: 1280px;
 }
 
 .accomplishments-head {
@@ -152,6 +154,7 @@ body {
 
 .latest-travel-width {
   width: 90%;
+  max-width: 1280px;
 }
 
 .latest-travel-head {
@@ -249,6 +252,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   width: 90%;
+  max-width: 1280px;
 }
 
 .col-1 {

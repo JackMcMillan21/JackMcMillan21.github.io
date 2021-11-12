@@ -45,6 +45,7 @@ body{
   flex-direction: column;
   text-align: start;
   width: 90%;
+  max-width: 1280px;
 }
 
 .lp-content h1{
@@ -91,6 +92,7 @@ body{
 
 .text-portion {
   width: 90%;
+  max-width: 1280px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -225,6 +227,7 @@ section h1{
 
 .support-me-container{
   width: 90%;
+  max-width: 1280px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -378,7 +381,7 @@ section h1{
 @media screen and (min-width: 1024px) {
   .container,
   .row-container {
-    max-width: 1140px;
+    max-width: 1180px;
   }
 
   nav {

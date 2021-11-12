@@ -113,6 +113,7 @@ input[type="submit"]:hover {
 
 .contact-us-content {
   width: 90%;
+  max-width: 1280px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
