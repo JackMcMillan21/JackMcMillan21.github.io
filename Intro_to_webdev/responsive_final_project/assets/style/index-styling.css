@@ -44,7 +44,7 @@ body{
   justify-content: center;
   flex-direction: column;
   text-align: start;
-  width: 80%;
+  width: 90%;
 }
 
 .lp-content h1{
@@ -90,7 +90,7 @@ body{
 }
 
 .text-portion {
-  width: 73%;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -110,7 +110,7 @@ justify-content: space-between;
 }
 
 .left-text{
-  width: 50%;
+  width: 45%;
 }
 
 .left-text h1{
@@ -224,7 +224,7 @@ section h1{
 }
 
 .support-me-container{
-  width: 73%;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
