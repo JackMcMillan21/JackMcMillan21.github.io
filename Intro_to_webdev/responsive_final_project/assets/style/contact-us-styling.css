@@ -137,8 +137,33 @@ input[type="submit"]:hover {
 .contact-us-right h1 {
   color: white;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 20px;
 }
+
+.contact-us-icons {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.contact-us-icons i{
+  cursor: pointer;
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 24px;
+  z-index: 9999;
+}
+
+.contact-us-icons i:hover{
+  background-color: rgba(255, 255, 255, 1);
+  color: #039be5;
+  border: white 3px solid;
+}
+
 
 .row{
     color: white;
@@ -153,7 +178,7 @@ input[type="submit"]:hover {
 }
 
 .row-1{
-    padding-top: 40px;
+  padding-top: 10px;
 }
 
 #map{
