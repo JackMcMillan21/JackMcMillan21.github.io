@@ -6,6 +6,10 @@
 /* -------------------------- */
 
 body {
+  background-color: white;
+}
+
+.main-container{
   background-color: #eeeeee;
 }
 
@@ -14,6 +18,8 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
   max-width: 1280px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .left-introduction {
@@ -71,7 +77,7 @@ body {
   50%{transform: translateY(-8px);}
 }
 
-  button:hover {
+.read-more-button:hover {
   animation: bounce .4s linear; }
 
 .lp-buttons {
@@ -469,6 +475,13 @@ body {
 }
 .accomplishments-row{
   margin: 0 auto;
+}
+.about-me-image {
+  width: 80%;
+  margin: 0 auto;
+}
+.right-introduction{
+  padding-bottom: 40px;
 }
 }
 

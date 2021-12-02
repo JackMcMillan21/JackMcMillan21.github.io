@@ -2,7 +2,7 @@
 @import "nav-footer.css";
 
 body {
-  background-color: #eeeeee;
+  background-color: white;
 }
 
 .form {
@@ -109,6 +109,7 @@ input[type="submit"]:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: #eeeeee;
 }
 
 .contact-us-content {

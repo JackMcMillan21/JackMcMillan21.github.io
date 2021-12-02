@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
     <link rel="icon" href="assets/img/JM-logos.jpeg">
     <title>Contact-us</title>
+    <script src="assets/js/dropdown.js" defer></script>
 </head>
 
 <body>
@@ -20,11 +21,34 @@
                 <img src="assets/img/JM-logos_transparent.png">
             </div>
             <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="article.html">Article</a></li>
-                </ul>
+                <div class="nav-buttons">
+                    <button class="link"><a href="index.html">Home</a></button>
+                    <button class="link"><a href="about.html">About</a></button>
+                    <div class="dropdown" data-dropdown>
+                        <button class="link button-dropdown" data-dropdown-button>Article</button>
+                        <div class="dropdown-menu information-sector">
+                            <div class="dropdown-heading">
+                                <h2>Articles</h2>
+                            </div>
+                            <div class="dropdown-links">
+                                <a href="#" class="link">How To CS</a>
+                                <a href="#" class="link second">Pumpkin Carving</a>
+                                <a href="html-and-css.html" class="link">HTML and CSS</a>
+                                <a href="#" class="link second">New Doc</a>
+                                <a href="#" class="link">About Me</a>
+                            </div>
+                            <div class="dropdown-heading">
+                                <h2>Projects</h2>
+                            </div>
+                            <div class="dropdown-links">
+                                <a href="#" class="link">Landing Page Project</a>
+                                <a href="#" class="link">Dashboard Project</a>
+                                <a href="#" class="link">Animation Project</a>
+                                <a href="#" class="link">Dashboard 2</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </nav>
             <div class="right-nav">
                 <div class="contact-us-nav">
