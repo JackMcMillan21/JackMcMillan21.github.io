@@ -70,6 +70,7 @@ body {
     line-height: 40px;
     font-size: 20px;
     padding-bottom: 40px;
+    text-indent: 40px;
   }
 
   .content li{
@@ -86,6 +87,14 @@ body {
   .content-1{
     padding-top: 100px;
 }
+  .content-4 p:last-child{
+    text-align: center;
+    padding-top: 40px;
+    text-indent: none;
+  }
+  .content-2-p{
+    padding-top: 40px;
+  }
 
   .image-1{
     height: 288px;
@@ -109,6 +118,27 @@ body {
     background: url("..//img/image-3.jpg") center center / cover no-repeat;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  table{
+    width: 100%;
+    border: 2px solid black;
+    padding-top: 20px;
+  }
+  table th{
+    width: 25%;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+  }
+  table tr{
+    width: 25%;
+    height: 50px;
+    text-align: center;
+  }
+  table td{
+    font-size: 18px;
   }
 
 /* ------------------------- */
