@@ -2,11 +2,11 @@
 @import "nav-footer.css";
 
 body {
-  background-color: #eeeeee;
+  background-color: white;
 }
 
-.lp-center{
-  background-color: white;
+.lp-center {
+  background-color: #eeeeee;
   width: 100%;
 }
 
@@ -16,6 +16,8 @@ body {
   height: calc(100vh - 60px);
   justify-content: center;
   text-align: left;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .lp-content h1 {
@@ -75,7 +77,6 @@ body {
 
 .article-text h2 {
   padding-top: 70px;
-  margin-left: 10%;
   font-size: 32px;
   padding-bottom: 20px;
 }
@@ -99,29 +100,6 @@ body {
     display: block;
     color: #000732;
     height: 40px;
-  }
-  .left-introduction,
-  .right-introduction {
-    width: 100%;
-  }
-  .right-introduction {
-    padding-top: 0px;
-  }
-  .lp-buttons {
-    padding-top: 20px;
-  }
-  .about-me-image {
-    height: 300px;
-    background: url("..//img/about-me-image.png") right center / cover no-repeat;
-  }
-  .article-image{
-    width: 90%;
-  }
-  .lp-content h1{
-    font-size: 46px;
-  }
-  .article-content{
-    width:100%;
   }
 }
 
