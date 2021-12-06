@@ -8,4 +8,4 @@
 
 -[Main-Index](https://jackmcmillan21.github.io/Intro_to_webdev/main_index/index.html)
 
--[Final-CSS-Project](https://jackmcmillan21.github.io/Intro_to_webdev/responsive_final_project/index.html)
+-[Personal-Portfolio](https://jackmcmillan21.github.io/Intro_to_webdev/fp_responsive_blog/index.html)
