@@ -1,0 +1,219 @@
+@import "base.css";
+@import "nav-footer.css";
+
+body {
+  background-color: white;
+}
+
+.lp-center {
+  background-color: #eeeeee;
+  width: 100%;
+}
+
+.lp-content {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 60px);
+  justify-content: center;
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.lp-content h1 {
+  font-weight: 900;
+  font-size: 60px;
+  padding-bottom: 70px;
+}
+
+.lp-content h3 {
+  font-weight: 900;
+  padding-left: 50px;
+  font-size: 24px;
+}
+
+/* ------------------------- */
+/* -------- Article -------- */
+/* ------------------------- */
+
+.article-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.article-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+  padding-bottom: 70px;
+}
+
+.article-text {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.article-text p {
+  text-indent: 40px;
+  line-height: 40px;
+  width: 85%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.article-text h2 {
+  padding-top: 70px;
+  font-size: 28px;
+  padding-bottom: 20px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.article-text {
+  padding-bottom: 40px;
+}
+
+.image-1 {
+  height: 300px;
+  width: 60%;
+  background: url("..//img/pumpkin-img1.PNG") center center / cover no-repeat;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 0 auto;
+}
+
+.image-2 {
+  height: 300px;
+  width: 60%;
+  background: url("..//img/pumpkin-img2.PNG") center center / cover no-repeat;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 0 auto;
+}
+
+.image-3 {
+  height: 300px;
+  width: 60%;
+  background: url("..//img/pumpkin-img3.PNG") center center / cover no-repeat;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 0 auto;
+}
+
+.image-4 {
+  height: 300px;
+  width: 60%;
+  background: url("..//img/pumpkin-img4.PNG") center center / cover no-repeat;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 0 auto;
+}
+
+.image-5 {
+  height: 300px;
+  width: 60%;
+  background: url("..//img/pumpkin-img5.PNG") center center / cover no-repeat;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 0 auto;
+}
+
+.image-6 {
+  height: 300px;
+  width: 60%;
+  background: url("..//img/pumpkin-img6.PNG") center center / cover no-repeat;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content p {
+  line-height: 40px;
+  font-size: 20px;
+  padding-bottom: 40px;
+  text-indent: 40px;
+}
+
+.first-content{
+    padding-top: 70px;
+}
+
+.final-content{
+    padding-top: 30px;
+}
+
+/* ------------------------- */
+/* ----- Media Queries ------ */
+/* ------------------------- */
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+  .contact-us-nav {
+    display: none;
+  }
+  .mobile-nav p i {
+    display: block;
+    color: #000732;
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 580px) {
+  nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container,
+  .row-container {
+    max-width: 800px;
+  }
+
+  nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  nav {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container,
+  .row-container {
+    max-width: 1280px;
+  }
+
+  nav {
+    display: block;
+  }
+  .mobile-nav {
+    display: none;
+  }
+}
