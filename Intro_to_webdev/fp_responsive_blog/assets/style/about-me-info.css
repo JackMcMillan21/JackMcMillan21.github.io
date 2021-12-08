@@ -30,38 +30,6 @@ body {
   font-weight: 900;
   padding-left: 50px;
   font-size: 24px;
-}@import "base.css";
-@import "nav-footer.css";
-
-body {
-  background-color: white;
-}
-
-.lp-center {
-  background-color: #eeeeee;
-  width: 100%;
-}
-
-.lp-content {
-  display: flex;
-  flex-direction: column;
-  height: calc(100vh - 60px);
-  justify-content: center;
-  text-align: left;
-  width: 80%;
-  margin: 0 auto;
-}
-
-.lp-content h1 {
-  font-weight: 900;
-  font-size: 60px;
-  padding-bottom: 70px;
-}
-
-.lp-content h3 {
-  font-weight: 900;
-  padding-left: 50px;
-  font-size: 24px;
 }
 /* ------------------------- */
 /* ----- Content ------ */
