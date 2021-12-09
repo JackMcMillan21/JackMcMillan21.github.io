@@ -81,13 +81,17 @@ body{
 }
 
 .read-more-button {
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.read-more-button a{
+  color: white;
+  text-decoration: none;
   padding: 8px 25px;
   border-radius: 50px;
   border: 1px solid #0077cc;
   background: #0070c9;
-  color: white;
-  cursor: pointer;
-  margin-top: 20px;
 }
 
 .text-portion {
