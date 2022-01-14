@@ -1,0 +1,64 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='author' content="Jack McMillan">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="assets/style/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <title>Home</title>
+
+    <script defer src="assets/js/z-temp-converter.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1>JM</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="article.html">Article</a></li>
+                </ul>
+            </nav>
+            <div class="right-nav">
+                <div class="contact-us-nav">
+                    <a href="contact-us.html">
+                        <h3>Contact Us</h3>
+                    </a>
+                </div>
+            </div>
+        </header>
+    </div>
+    <main>
+        <div id="main-container">
+            <div class="container">
+                <div id="celsius">
+                    <h2>Celsius to Fahrenheit</h2>
+                    <input type="text" id="celsius-convert" placeholder="Tempature in Celsius">
+                    <input type="button" id="button-1" class="button" value="Convert">
+                    <div class="spacer"></div>
+                    <div id="celsius-output">
+                        <p>Celsius: <span id="celsius-text"></span></p>
+                    </div>
+                </div>
+                <div id="fahrenheit">
+                    <h2>Fahrenheit to Celsius</h2>
+                    <input type="text" id="fahrenheit-convert" placeholder="Tempature in fahrenheit">
+                    <input type="button" id="button-2" class="button" value="Convert">
+                    <div class="spacer"></div>
+                    <div id="fahrenheit-output">
+                        <p>Fahrenheit: <span id="fahrenheit-text"></span></p>
+                    </div>
+                </div>
+            </div>
+            <button id="dark-mode">Dark Mode</button>
+        </div>
+    </main>
+    <noscript>
+        <p>This page requires a Javascript-enabled browser</p>
+    </noscript>
+</body>
