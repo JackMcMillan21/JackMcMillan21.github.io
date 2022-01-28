@@ -1,0 +1,136 @@
+@import "base.css";
+@import "nav-footer.css";
+
+body {
+  background-color: rgb(53, 54, 58);
+}
+
+.sign-up-form {
+  width: 60%;
+}
+
+.home{
+    color: white;
+    text-decoration: none;
+}
+
+.home:hover{
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.sign-up-text{
+    color: #fff;
+}
+
+.sign-up-center{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.sign-up-form input[type="text"], [type="email"] {
+  margin-top: 20px;
+  width: 100%;
+  height: 48px;
+  padding: 0 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 14px 15px -10px,
+    rgba(0, 0, 0, 0.2) 0px 16px 10px -10px;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.sign-up-form input[type="button"], input[type="reset"] {
+  margin-top: 20px;
+  width: 20%;
+  height: 48px;
+  padding: 0 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgb(29, 222, 203);
+  border-radius: 4px;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 14px 15px -10px,
+    rgba(0, 0, 0, 0.2) 0px 16px 10px -10px;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+  transform: perspective(1px) translateZ(0);
+  backface-visibility: hidden;
+}
+
+.sign-up-form input[type="reset"]{
+    background-color: rgb(193, 146, 252);
+    margin-right: 15px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/* Modal */
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 35%;
+  max-width: 430px;
+  height: 40%;
+  max-height: 350px;
+  background-color: rgb(53, 54, 58);
+  margin-top: 90px;
+  text-align: left;
+}
+
+.center-form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.x-button {
+  color: rgb(255, 255, 255);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.x-button:hover,
+.x-button:focus {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#message{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}

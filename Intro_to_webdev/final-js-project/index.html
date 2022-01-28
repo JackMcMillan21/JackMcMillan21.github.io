@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='author' content="Jack McMillan">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="assets/style/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <title>Home</title>
+    <script src="assets/js/index.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1>Re-direct Hub</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a id="sign-up" href="sign-up.html">Sign Up</a></li>
+                    <li><a id="log-in">Log in</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="content-holder">
+            <form class="re-direct">
+                <input type="text" id="text-box" placeholder="Search" class="text-box">
+                <div class="buttons">
+                    <input type="button" id="google" class="google" value="Google">
+                    <input type="button" id="bing" class="bing" value="Bing">
+                </div>
+            </form>
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <span class="x-button">&times;</span>
+                    <div class="log-in-div">
+                        <div class="form-text">
+                            <h2>Log-In</h2>
+                            <p>All fields are required</p>
+                        </div>
+                        <form id="log-in-form" class="log-in-form" novalidate>
+                            <div class="center-form">
+                                <div class="center-input">
+                                    <div class="password-info">Username: guest-1 &nbsp;&nbsp;-&nbsp;&nbsp; Password: password123</div>
+                                    <input type="text" id="username" placeholder="Username*">
+                                    <input type="password" id="password" placeholder="Password*">
+                                    <div id="password-error"><span id="password-error-text"></span></div>
+                                </div>
+                                <div class="buttons">
+                                    <input type="reset" class="clear" id="clear" value="Clear">
+                                    <input type="button" class="submit" id="submit" value="Log In">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <noscript>
+        <p>This page requires a JavaScript-enabled browser</p>
+    </noscript>
+</body>
+
+</html>

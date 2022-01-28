@@ -1,0 +1,81 @@
+/* -------------------------- */
+/* --------- Header ----------*/
+/* -------------------------- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+  }
+
+  header h1{
+    color: white;
+  }
+  
+  header .welcome {
+    color: white;
+  }
+  .container, .header-container {
+    position: relative;
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+  
+  nav {
+    height: 60px;
+    overflow: hidden;
+  }
+  
+  nav ul li a {
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    font-size: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    line-height: 60px;
+    cursor: default;
+  }
+  
+  nav ul li a {
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+  }
+
+  .logo{
+    display: flex;
+    align-items: center;
+  }
+
+  .logo img{
+    height: 40px;
+    width: 90px;
+  }
+
+  .right-nav{
+    display: flex;
+    align-items: center;
+  }
+
+  .contact-us-nav h3{
+    font-size: 18px;
+    padding: 4px 20px;
+    border-radius: 50px;
+    border: 1.5px solid white;
+    font-weight: 400;
+  }
+
+  .contact-us-nav a{
+    text-decoration: none;
+    color: white;
+  }

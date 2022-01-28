@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='author' content="Jack McMillan">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="assets/style/sign-up.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <title>Home</title>
+    <script src="assets/js/sign-up.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1><a class="home" href="index.html">Home</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="sign-up.html">Sign Up</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="content-holder">
+            <div class="sign-up-center">
+                <div class="sign-up-text">
+                    <h2>Signing Up</h2>
+                    <p>All fields with are required*</p>
+                </div>
+                <form class="sign-up-form">
+                    <input type="text" id="first-name" placeholder="First Name*">
+                    <input type="text" id="last-name" placeholder="Last Name*">
+                    <input type="text" id="age" placeholder="Age*">
+                    <input type="email" id="email" placeholder="Email (johnsmith@example.ca)*">
+                    <div class="buttons">
+                        <input type="reset" id="clear-button" class="google" value="Clear">
+                        <input type="button" id="sign-up-button" class="bing" value="Sign Up">
+                    </div>
+                </form>
+            </div>
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <span class="x-button">&times;</span>
+                    <span id="message">Example text</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <noscript>
+        <p>This page requires a JavaScript-enabled browser</p>
+    </noscript>
+</body>
+
+</html>

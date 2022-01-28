@@ -1,0 +1,253 @@
+@import "base.css";
+@import "nav-footer.css";
+
+body {
+  background-color: rgb(53, 54, 58);
+}
+
+.re-direct {
+  width: 60%;
+}
+
+.home{
+    color: white;
+    text-decoration: none;
+}
+
+.home:hover{
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.re-direct input[type="text"] {
+  margin-top: 20px;
+  width: 100%;
+  height: 48px;
+  padding: 0 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 14px 15px -10px,
+    rgba(0, 0, 0, 0.2) 0px 16px 10px -10px;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.re-direct input[type="button"] {
+  margin-top: 20px;
+  width: 20%;
+  height: 48px;
+  padding: 0 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgb(29, 222, 203);
+  border-radius: 4px;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 14px 15px -10px,
+    rgba(0, 0, 0, 0.2) 0px 16px 10px -10px;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+  transform: perspective(1px) translateZ(0);
+  backface-visibility: hidden;
+}
+
+input[type="button"] + input[type="button"] {
+  margin-left: 25px;
+  background-color: rgb(193, 146, 252);
+}
+
+input[type="button"]:hover:not([disabled]) {
+  transition: all ease-in-out 0.35s;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+input[type="button"]:hover:is([disabled]) {
+  cursor: not-allowed;
+}
+
+input[type="reset"]:hover:not([disabled]) {
+  transition: all ease-in-out 0.35s;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+input[type="reset"]:hover:is([disabled]) {
+  cursor: not-allowed;
+}
+
+input:focus {
+  border: 2px solid rgba(255, 255, 255, 0.25);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Modal */
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+  max-width: 440px;
+  height: 65%;
+  max-height: 560px;
+  background-color: rgb(53, 54, 58);
+  margin-top: 90px;
+}
+
+.center-form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.x-button {
+  color: rgb(255, 255, 255);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.x-button:hover,
+.x-button:focus {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Log In Form */
+
+.log-in-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.log-in-form {
+  display: flex;
+}
+
+.center-input {
+  margin: 0 auto;
+}
+
+.form-text {
+  padding-bottom: 10%;
+  color: #fff;
+  font-size: 18px;
+}
+
+.password-info{
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.log-in-div input[type="text"],
+input[type="password"] {
+  margin-top: 20px;
+  width: 100%;
+  height: 48px;
+  padding: 0 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 14px 15px -10px,
+    rgba(0, 0, 0, 0.2) 0px 16px 10px -10px;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: left;
+}
+
+#password-error{
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 10px;
+  display: none;
+}
+
+#password-error-text{
+  width: 100%;
+  text-align: center;
+  color: red;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.clear {
+  margin-top: 20px;
+  width: 30%;
+  height: 48px;
+  padding: 0 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgb(193, 146, 252);
+  border-radius: 4px;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 14px 15px -10px,
+    rgba(0, 0, 0, 0.2) 0px 16px 10px -10px;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+  transform: perspective(1px) translateZ(0);
+  backface-visibility: hidden;
+  margin-right: 20px;
+}
+
+.submit {
+  margin-top: 20px;
+  width: 30%;
+  height: 48px;
+  padding: 0 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgb(29, 222, 203);
+  border-radius: 4px;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 14px 15px -10px,
+    rgba(0, 0, 0, 0.2) 0px 16px 10px -10px;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+  transform: perspective(1px) translateZ(0);
+  backface-visibility: hidden;
+}
