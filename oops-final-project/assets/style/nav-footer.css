@@ -1,0 +1,81 @@
+/* -------------------------- */
+/* --------- Header ----------*/
+/* -------------------------- */
+
+  .logo{
+    display: flex;
+     align-items: center;
+     color: rgb(29, 222, 203);
+     width: 20%;
+  }
+  
+  .container, .header-container {
+    position: relative;
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+  .flexbox{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row ;
+  }
+  
+  nav {
+    height: 60px;
+    overflow: hidden;
+  }
+  
+  nav ul li a {
+    padding: 5px;
+  }
+  
+  nav ul {
+    list-style: none;
+    font-size: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    line-height: 60px;
+    cursor: default;
+  }
+  
+  nav ul li a {
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  nav ul li a:hover {
+    color:  #ADD8E6;
+  }
+
+  nav ul li + li {
+    margin-left: 10px;
+  }
+
+  .right-nav{
+    display: flex;
+    border-radius: 50%;
+    height: 60px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .background-image{
+    background: url("..//media/dog.jpg");
+    background-size: contain;
+    background-size: cover;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+  }

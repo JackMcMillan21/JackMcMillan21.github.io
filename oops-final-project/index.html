@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='author' content="Jack McMillan">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="assets/style/index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <title>Home</title>
+    <script src="assets/js/index.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="container flexbox">
+            <div class="logo">
+                <h1>Fakebook</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a id="sign-up" href="#">Friends</a></li>
+                    <li><a id="log-in" href="#">Pages</a></li>
+                    <li><a id="log-in" href="#">Groups</a></li>
+                    <li><a id="log-in" href="#">Settings</a></li>
+                </ul>
+            </nav>
+            <div class="right-nav">
+                <div class="background-image" id="profile-picture"></div>
+            </div>
+        </div>
+    </header>
+    <div class="main-container">
+        <div class="container-2">
+            <textarea id="text-area" placeholder="Share whats going on with you life!"></textarea>
+            <div class="button-div">
+                <label class="custom-file-upload">
+                    <i class="fa fa-image"></i>
+                    <input type="file" multiple accept="image/*" id="image-input"/>
+                    <span id="upload">Upload</span>
+                </label>
+                <div class="post-button-div">
+                    <input type="submit" id="post-button" class="post-button" value="Post">
+                </div>
+            </div>
+            <div class="error-text-container">
+            <span id="error-text"></span>
+        </div>
+            <div id="grid-container">
+            </div>
+        </div>
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="top">
+                <div class="background-image num-2"></div>
+            </div>
+            <div id="bottom"></div>
+        </div>
+    <noscript>
+        <p>This page requires a JavaScript-enabled browser</p>
+    </noscript>
+</body>
+
+</html>
