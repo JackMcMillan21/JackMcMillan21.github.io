@@ -1,11 +1,9 @@
 <!-- Assignments -->
 
--[Assignment-3](https://jackmcmillan21.github.io/Intro_to_webdev/Assignment_3/index.html)
-
--[Assignment-4](https://jackmcmillan21.github.io/Intro_to_webdev/Assignment_4/index.html)
-
--[Assignment-5](https://jackmcmillan21.github.io/Intro_to_webdev/Assignment_5/index.html)
-
--[Main-Index](https://jackmcmillan21.github.io/Intro_to_webdev/main_index/index.html)
+-[Social-Platform](https://jackmcmillan21.github.io/oops-final-project/index.html)
 
 -[Personal-Portfolio](https://jackmcmillan21.github.io/Intro_to_webdev/fp_responsive_blog/index.html)
+
+-[Example-Article-Page](https://jackmcmillan21.github.io/Intro_to_webdev/Assignment_3/index.html)
+
+-[Example-Data-Table](https://jackmcmillan21.github.io/Intro_to_webdev/Assignment_5/index.html)
