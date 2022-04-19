@@ -10,7 +10,8 @@ function showLocation(position){
         container: 'map', // container ID
         style: 'mapbox://styles/mapbox/streets-v11', // style URL
         center: [longitude, latitude], // starting position [lng, lat]
-        zoom: 12 // starting zoom
+        interactive: false,
+        zoom: 14 // starting zoom
     });
 }
 
