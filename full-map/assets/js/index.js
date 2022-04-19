@@ -1,18 +1,20 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiamFja21jbWlsbGFuMjEiLCJhIjoiY2wyNTRkZ2JzMDNyMzNrbGpxdDJhcXUwYiJ9.9xryIEzpvPEdyZxTq1VVsg';
 
+const map = new mapboxgl.Map({
+    container: 'map', // container ID
+    style: 'mapbox://styles/mapbox/streets-v11', // style URL
+    Center: [0, 0], // starting position [lng, lat]
+    interactive: false,
+    zoom: 14 // starting zoom
+});
+
 
 function showLocation(position){
+    if(!position)
+        return;
     const {longitude, latitude} = position.coords;
-    console.log(`Longitude: ${longitude}`);
-    console.log(`Latitude: ${latitude}`);
 
-    const map = new mapboxgl.Map({
-        container: 'map', // container ID
-        style: 'mapbox://styles/mapbox/streets-v11', // style URL
-        center: [longitude, latitude], // starting position [lng, lat]
-        interactive: false,
-        zoom: 14 // starting zoom
-    });
+   map.setCenter([longitude, latitude]);
 }
 
 //The 'failure' callback function
