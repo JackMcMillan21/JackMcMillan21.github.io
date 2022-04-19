@@ -21,7 +21,7 @@ console.log("nope");
 }
 
 if (navigator.geolocation){
-    navigator.geolocation.getCurrentPosition(showLocation, errorHandler, {enableHighAccuracy:true});
+    navigator.geolocation.watchPosition(showLocation, errorHandler, {enableHighAccuracy:true});
 }else{
         console.log(`Geolocation is not supported b thr browser`);
 }
