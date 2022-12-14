@@ -1,5 +1,6 @@
 @import "base.css";
 @import "nav-footer.css";
+@import "hamburger.css";
 
 /* -------------------------- */
 /* ------ Landing Page -------*/
@@ -306,27 +307,22 @@ section h1{
   .contact-us-nav{
     display: none;
   }
-  .mobile-nav p i  {
-    display: block;
-    color: #000732;
-    height: 40px;
-  }
+.toggle-button{
+  display: flex;
+}
 
+.navbar-links{
+  display: none;
+}
 }
 
 @media screen and (min-width: 320px) {
-  nav {
-    display: none;
-  }
   .mobile-nav {
     display: block;
   }
 }
 
 @media screen and (min-width: 580px) {
-  nav {
-    display: none;
-  }
   .mobile-nav {
     display: block;
   }
@@ -342,25 +338,9 @@ section h1{
   .row-container {
     max-width: 800px;
   }
-
-  nav {
-    display: none;
-  }
-  .mobile-nav {
-    display: block;
-  }
-
   .col-md-6 {
     flex: 0 0 50%;
     max-width: 50%;
-  }
-
-
-}
-
-@media screen and (min-width: 769px){
-  nav {
-    display: block;
   }
 }
 
@@ -389,10 +369,7 @@ section h1{
   }
 
   nav {
-    display: block;
-  }
-  .mobile-nav {
-    display: none;
+    display: flex;
   }
 
   .col-lg-3 {

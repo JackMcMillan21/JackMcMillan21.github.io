@@ -21,6 +21,7 @@ header .welcome {
 
 nav {
   height: 8vh;
+  width: 100%;
 }
 
 .nav-buttons {
@@ -66,13 +67,6 @@ nav button {
   padding-left: 12%;
 }
 
-.dropdown-links{
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  padding-left: 50px;
-}
-
 .dropdown-links a{
   text-decoration: none;
   color: #525252;
@@ -88,13 +82,8 @@ nav button {
   padding-left: 20px;
 }
 
-.dropdown h2 {
-  text-align: left;
-  font-weight: 600;
-  text-decoration: underline black 2px solid;
-  font-size: 20px;
-  padding-left: 10px;
-  padding-bottom: 10px;
+.link{
+  height: 78px;
 }
 
 .link a {
@@ -110,20 +99,6 @@ nav button {
   align-items: center;
   justify-content: center;
   background-color: transparent;
-}
-
-.button-dropdown {
-  letter-spacing: 1px;
-  font-size: 20px;
-  color: #000732;
-  font-weight: 400;
-  letter-spacing: 0.2px;
-  text-decoration: none;
-  cursor: pointer;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .mobile-nav {
